@@ -1,0 +1,48 @@
+/* 
+
+red: #E8000A
+amber: #FABE00
+white: #FFFFFF
+black: #000000
+
+*/
+/*make nav stay in place*/
+nav, .navbar {
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+
+footer {
+    padding-left: 30%;
+    padding-right:30%;
+    padding-top: 5%;
+    background-color: #FABE00;
+
+    min-height: 200px;
+}
+
+hr {
+    background-color: #E8000A;
+    height:10px;
+    border: none;
+}
+
+nav {
+    z-index: 4;
+}
+
+.icon {
+    width:50px;
+}
+
+.hero {
+    background-image: url(../images/hero.avif);
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cast {
+    display: grid;
+}
