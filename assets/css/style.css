@@ -43,6 +43,26 @@ nav {
     background-size: cover;
 }
 
-.cast {
-    display: grid;
+.grid {
+    display:grid;
+}
+
+.fltRight {
+    float: right;
+    margin: 0 0 15px 20px;
+        /*  T R   B    L*/
+}
+
+.fltLeft {
+    float: left;
+    margin: 0 15px 20px 0;
+}
+
+.smallImageH {
+    height:100px;
+}
+
+div {
+    margin: 15px;
+    padding:15px
 }
